@@ -11,9 +11,9 @@
 
 def snake_it_up(string)
   if string[0] == "s"
-    new_string = ''
+    new_string = "s"
     10.times do
-      new_string << 's'
+      new_string
     end
     new_string + string
   else
