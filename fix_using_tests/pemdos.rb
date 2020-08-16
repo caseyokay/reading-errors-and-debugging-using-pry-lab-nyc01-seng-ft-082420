@@ -11,7 +11,7 @@
 
 def snake_it_up(string)
   if string[0] == "s"
-    new_string = "s"
+    new_string = string[0]
     10.times do
       new_string
     end
